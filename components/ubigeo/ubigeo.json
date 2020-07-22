@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ubigeo_ubigeos",
+  "info": {
+    "name": "ubigeo",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "departamento": {
+      "type": "enumeration",
+      "enum": [
+        "lima",
+        "moquegua"
+      ]
+    }
+  }
+}

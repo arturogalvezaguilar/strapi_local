@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parent_zone_videos",
+  "info": {
+    "name": "parent-zone-videos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "id_": {
+      "type": "string"
+    },
+    "video": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

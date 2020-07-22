@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "magical_english2107_s",
+  "info": {
+    "name": "MagicalEnglish2107"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "structure": {
+      "type": "json"
+    },
+    "siteId": {
+      "type": "string"
+    },
+    "logoImages": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "logosNavBar": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "lesson_images": {
+      "collection": "lesson-images"
+    },
+    "parent_zone_videos": {
+      "collection": "parent-zone-videos"
+    },
+    "parent_zone_list_images": {
+      "collection": "parent-zone-list-images"
+    }
+  }
+}

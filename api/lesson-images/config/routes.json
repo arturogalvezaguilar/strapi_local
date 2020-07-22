@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lesson-images",
+      "handler": "lesson-images.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lesson-images/count",
+      "handler": "lesson-images.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lesson-images/:id",
+      "handler": "lesson-images.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lesson-images",
+      "handler": "lesson-images.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lesson-images/:id",
+      "handler": "lesson-images.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lesson-images/:id",
+      "handler": "lesson-images.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/parent-zone-videos",
+      "handler": "parent-zone-videos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/parent-zone-videos/count",
+      "handler": "parent-zone-videos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/parent-zone-videos/:id",
+      "handler": "parent-zone-videos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/parent-zone-videos",
+      "handler": "parent-zone-videos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/parent-zone-videos/:id",
+      "handler": "parent-zone-videos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/parent-zone-videos/:id",
+      "handler": "parent-zone-videos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

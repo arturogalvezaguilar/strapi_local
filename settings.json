@@ -1,0 +1,11 @@
+ {
+  "provider": "aws-s3",
+  "providerOptions": {
+    "accessKeyId": "xxxxxxxxxxx",
+    "secretAccessKey": "yyyyyyyyyy",
+    "region": "eu-west-1",
+    "params": {
+      "Bucket": "bucket-strapi2"
+    }
+  }
+}

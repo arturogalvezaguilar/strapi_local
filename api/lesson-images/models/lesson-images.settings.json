@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lesson_images",
+  "info": {
+    "name": "LessonImages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "enlace": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

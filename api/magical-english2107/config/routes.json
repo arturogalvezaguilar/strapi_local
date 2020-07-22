@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/magical-english-2107-s",
+      "handler": "magical-english2107.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/magical-english-2107-s/count",
+      "handler": "magical-english2107.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/magical-english-2107-s/:id",
+      "handler": "magical-english2107.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/magical-english-2107-s",
+      "handler": "magical-english2107.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/magical-english-2107-s/:id",
+      "handler": "magical-english2107.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/magical-english-2107-s/:id",
+      "handler": "magical-english2107.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

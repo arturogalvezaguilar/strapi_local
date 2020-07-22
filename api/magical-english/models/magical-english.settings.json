@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "magical_englishes",
+  "info": {
+    "name": "MagicalEnglish"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "lugarCarga": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "titleName": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "descriptionText1": {
+      "type": "string"
+    },
+    "video1": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "descriptionText2": {
+      "type": "string"
+    },
+    "buttonName": {
+      "type": "string"
+    }
+  }
+}
